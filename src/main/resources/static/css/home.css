@@ -1,0 +1,120 @@
+body, ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+a:link {
+  color: #2eaab7;
+}
+
+header {
+  width: 100%;
+  height: 180px;
+  background-color: #2eaab7;
+}
+
+#title {
+  width: 100%;
+  height: 100px;
+  line-height: 120px;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#searchBox {
+  width: 1024px;
+  margin: 0 auto;
+  position: relative;
+}
+
+#searchImage {
+  position: absolute;
+  top: 13px;
+  left: 10px;
+  width:33px;
+}
+
+#searchBox > input[type="text"] {
+  width: 100%;
+  height: 50px;
+  font-size: 1.1em;
+  border-radius: 3px;
+  text-indent: 2.5em;
+  border: 1px solid white;
+}
+
+#searchBox > input[type="button"] {
+  width: 60px;
+  height: 38px;
+  font-size: 1em;
+  font-weight: bold;
+  margin: -70px;
+  border: none;
+  border-radius: 3px;
+  background-color: #ffcd45;
+  cursor: pointer;
+}
+
+article {
+  width: 100%;
+  overflow: auto;
+  background-color: #eee;
+}
+
+#contentBox {
+  width: 1024px;
+  margin: 30px auto;
+  border: 1px solid lightgray;
+  border-radius: 3px;
+  background-color: white;
+}
+
+#contentTitle {
+  width: 90%;
+  margin: 30px auto;
+}
+
+#contents {
+  width: 90%;
+  margin: 0 auto 30px auto;
+}
+
+#contentTitle > div, #contents li {
+  width: 100%;
+  padding: 10px 0;
+  display: flex;
+  flex-wrap: initial;
+  background-color: white;
+}
+
+#contents li:nth-child(2n) {
+  background-color: #eee;
+}
+
+#contentTitle > div > div:nth-child(1), #contents li > div:nth-child(1) {
+  flex-basis: 200px;
+  word-break: break-all;
+  white-space: normal;
+  padding-left: 10px;
+}
+
+#contentTitle > div > div:nth-child(2), #contents li > div:nth-child(2) {
+  flex-basis: 100%;
+  word-break: break-all;
+  white-space: normal;
+  padding-left: 10px;
+}
+
+#contentTitle > div > div:nth-child(2) {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+xmp {
+  width: 100%;
+  white-space: normal;
+  margin-top: 0;
+}
